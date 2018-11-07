@@ -1,0 +1,3 @@
+com/lanyage/zuul/busservice/BusServiceApplication.class
+com/lanyage/zuul/busservice/controller/BusEndPoint.class
+com/lanyage/zuul/busservice/bean/Bus.class

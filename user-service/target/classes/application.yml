@@ -1,0 +1,8 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.web.servlet.DispatcherServlet: DEBUG

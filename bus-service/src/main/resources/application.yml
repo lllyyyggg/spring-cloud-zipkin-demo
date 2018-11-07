@@ -1,0 +1,9 @@
+server:
+  port: 8084
+spring:
+  application:
+    name: BUS-SERVICE
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8081/eureka
