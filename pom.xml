@@ -5,13 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.lanyage.zuul</groupId>
-    <artifactId>spring-cloud-zuul</artifactId>
+    <artifactId>spring-cloud-zipkin-demo</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
     <modules>
         <module>service-discovery-server</module>
         <module>user-consumer</module>
         <module>user-service</module>
+        <module>zuul-server</module>
+        <module>bus-service</module>
     </modules>
 
 </project>
